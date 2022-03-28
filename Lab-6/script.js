@@ -1,30 +1,13 @@
-function hello(){
-    console.log("Hello World!");
-}
-
-function SUM(){
-    const num1 = parseInt(prompt("Enter Num1 :"));
-    const num2 = parseInt(prompt("Enter Num2 :"));
-    const summ = num1 + num2;
-    return summ;
-}
-
-function calc(a ,b){
-    const inp = prompt("Enter Operation To perform on Two Integers ");
-    if (inp=="+"){
-        return a + b;
-    }
-    else if(inp=="-"){
-        return a - b;
-    }
-    else if(inp=="*"){
-        return a * b;
-    }
-    else if(inp=="/"){
-        return a / b;
-    }
-}
-
-hello();
-document.write(SUM());
-console.log(calc(5,6));
+meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCA Lab-6</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="main"></div>
+    <div class="container">
+        <h1>This is Lab 6</h1><br>
+        <link rel="stylesheet" href="../style.css">
+        <p>Learning ...</p><br>
+    </div>
+    <script src="script.js"></script>
